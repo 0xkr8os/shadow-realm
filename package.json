@@ -1,0 +1,19 @@
+{
+  "name": "eth-pos-devnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./shadow_realm/consensus/beacondata ./shadow_realm/consensus/validatordata ./shadow_realm/execution/geth"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/ssz": "^0.11.1",
+    "@lodestar/types": "^1.9.0",
+    "ethers": "^6.6.1",
+    "node-fetch": "^3.3.1"
+  }
+}

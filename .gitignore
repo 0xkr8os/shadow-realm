@@ -1,0 +1,12 @@
+shadow_realm/consensus/beacondata
+shadow_realm/consensus/genesis.ssz
+shadow_realm/consensus/validatordata
+shadow_realm/execution/geth
+shadow_realm/execution/geth.ipc
+.idea/
+node_modules/
+```
+
+tmp
+shadow_realm/consensus/beacondata
+prysmctl
